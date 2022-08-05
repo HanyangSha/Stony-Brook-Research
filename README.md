@@ -2,7 +2,7 @@
 
 This repository contains the C++ programs I wrote for research at Stony Brook University in summer 2022. 
 
-Every file uses the C++ linear algebra library Eigen. If you want to use my code, make sure you download this library, otherwise you are responsible for finding an alternative way to compute eigenvalues of a matrix. 
+Every file uses the C++ linear algebra library Eigen. If you want to use my code, make sure you download this library, otherwise you are responsible for having an alternative way to compute eigenvalues of a matrix. 
 
 Explanations of what each file does (somewhat in chronological order):
 1. connected_builder: randomly generates rooted and strongly connected directed graphs according to L=BB^T, then computes their eigenvalues to verify nonnegative and nondecreasing properties
